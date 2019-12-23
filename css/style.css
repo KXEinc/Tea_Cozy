@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+h1, h2, h4 {
+  margin: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#logo {
+  height: 50px;
+  margin: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 20px 10px;
+  color: seashell;
+}
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+#mission {
+  height: 700px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("..//sourse/img/img-mission-background.jpg");
+}
+.teaOfMounth {
+  width: 1000px;
+  margin: 60px auto;
+}
+#tOm {
+  justify-content: center;
+}
+
+
+.text-content {
+  width: 100%;
+  background-color: black;
+}
+
+.flexImgContainer {
+  justify-content: space-around;
+}
+
+.img-content {
+  padding: 10px 15px;
+}
+
+
+.img-content img{
+  height: 200px;
+  width: 300px;
+  padding-bottom: 5px;
+}
+
+.img-content span {
+  display: block;
+  padding: 5px;
+}
+
+.location {
+  height: 500px;
+  width: 1200px;
+  padding: 70px 0px;
+  margin: 10px auto;
+  background-image: url("../sourse/img/img-locations-background.jpg");
+}
+
+#locationLable {
+  width: 100%;
+}
+
+#locationFlex {
+  width: 100%;
+  justify-content: center;
+}
+
+#localbox {
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 20px;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.contact {
+  height: 200px;
+}
+
+
+#copyright {
+  text-align: left;
+  padding-top: 10px;
+  margin: 20px;
+}
